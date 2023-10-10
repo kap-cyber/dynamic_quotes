@@ -1,0 +1,128 @@
+body{
+    background-color: lightgrey;
+    
+}
+
+.box{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 100px;
+}
+.h{
+    text-transform: capitalize;
+    /* font-family: 'Cedarville Cursive', cursive; */
+    font-family: 'Cedarville Cursive', cursive;
+font-family: 'Dancing Script', cursive;
+    word-spacing: 3px;
+    margin-top: -50px;
+    font-size: 30px;
+    font-weight: lighter;
+    word-spacing: 5px;
+    
+    
+    
+    
+
+}
+.p{
+    text-transform: capitalize;
+    text-align: right;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-right: 110px;
+    font-size: 20px;
+    text-shadow: 0.2px 0.2px 0.2px black;
+}
+.box1{
+    /* border: 2px solid blue; */
+    padding: 100px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px  black;
+    width: 100%;
+    height: auto;
+    
+}
+.h1{
+    text-align: center;
+    font-size:4rem;
+    margin-top:50px;
+    margin-bottom: 20px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ word-spacing: 20px;
+ font-weight: lighter;
+ animation: h1 3s linear infinite alternate;
+ color: rgb(33, 73, 153);
+ text-shadow: 2px 2px 2px rgba(47, 45, 45, 0.986);
+ 
+}
+@keyframes h1 {
+    from {
+      transform: translateX(-0.5rem);
+    }
+    to {
+      transform: translateX(0.5rem);
+    }
+  }
+.btn{
+    padding: 10px 35px;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: none;
+    animation: btn 2s linear infinite alternate;
+}
+@keyframes btn {
+    from{
+        transform: scale(0.9);
+        background-color: forestgreen;
+    }
+    to{
+        transform: scale(1.1);
+        background-color: dodgerblue;
+    }
+    
+}
+h2{
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+.btn1{
+    margin-left: 500px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: darkslateblue;
+    border: none;
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(48, 145, 157);
+}
+.btn1:hover{
+    cursor: pointer;
+    
+    /* transform: scale(1.1); */
+    box-shadow: 1px 1px 1px  black;
+    background-color: rgb(139, 74, 34);
+}
+.twitter{
+    margin-right: 30px;
+    color: dodgerblue;
+    animation: rotate 2s linear infinite alternate;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(30deg);
+    }
+}
+.twitter:hover{
+     color: black;
+     cursor: pointer;
+}
